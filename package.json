@@ -1,0 +1,23 @@
+{
+  "name": "cpnt262-a4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elfort2021/cpnt262-a4.git"
+  },
+  "keywords": [],
+  "author": "Eleanor Forte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elfort2021/cpnt262-a4/issues"
+  },
+  "homepage": "https://github.com/elfort2021/cpnt262-a4",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
