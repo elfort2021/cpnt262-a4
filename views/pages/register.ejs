@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head') %>
+</head>
+<body>
+  <%- include('../partials/nav') %>
+  <div class="main-title">
+    <h1>Register Right Here for Updates on All things Plants:</h1>
+  </div>
+  <div class="form-section">
+    <label for="fname"><p>First:</p></label>
+    <input type="text" required>
+    <label for="lname"><p>Last:</p></label>
+    <input type="text" required>
+    <label for="email"><p>Email:</p></label>
+    <input type="email" required>
+    <label for="password"><p>Create Password (min 6 characters):</p></label>
+    <input type="password" minlength="6" required>
+    <input type="submit">
+  </form>
+</div>
+  <%- include('../partials/footer') %> 
+</body>
+</html>

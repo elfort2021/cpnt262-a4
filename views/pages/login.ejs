@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head') %>
+</head>
+<body>
+  <%- include('../partials/nav') %>
+  <div class="main-title">
+    <h1>Login</h1>
+  </div>
+  <div class="form-action">
+    <label for="username"><p>Username:</p></label>
+    <input type="text" required>
+    <label for="password"><p>Password (6 characters minimum):</p></label>
+    <input type="password" minlength="6" required>
+    </div>
+    <button type ="submit">Submit</button>
+  </form>
+<%- include('../partials/footer') %>
+</body>
+</html>
