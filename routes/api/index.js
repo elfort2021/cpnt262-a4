@@ -9,23 +9,23 @@ router.use((req, res, next) => {
   next()
 })
 
-// Home Page
+
 router.get('/', (req, res)=> {
   res.render('pages/index', {pageTitle: 'Home'})
 })
 
-// Login
+
 router.get('/login', (req, res)=> {
   res.render('pages/login', {pageTitle: 'login'})
   
 })
 
-// Registration Page 
+
 router.get('/register', (req, res)=> {
   res.render('pages/register', {pageTitle: 'register'})
 })
 
-// api
+
 router.use('/api/v0/', api);
 
-module.exports = router
+module.exports = router;

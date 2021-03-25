@@ -92,39 +92,3 @@ const image = [{
     creditURL: 'https://unsplash.com/photos/BLBCj6dxaSE'
   }
 ];
-
-// This took me like 3 different ways and 19 google searches to figure out. 
-
-// link to html 
-const imageContainer = document.querySelector(".image-gallery");
-
-// the loop
-
-for (let i = 0; i < image.length; i++) {
-
-  //container 
-  const figure = document.createElement('figure');
-  imageContainer.appendChild(figure);
-
-
-  //image 
-
-  const figImage = document.createElement('img')
-  figImage.src = `${image[i].pathURL}`;
-  figImage.alt = `${image[i].description}`;
-  figImage.style.maxWidth = `${image[i].width}`;
-  // realized I hadn't linked these. 
-  figImage.credit =  `${image[i].credit}`;
-  figImage.creditURL = `${image[i].creditURL}`;
-  figure.appendChild(figImage);
-
-  //title 
-  const caption = document.createElement('h2');
-  caption.innerText = `${image[i].title}`;
-  figure.appendChild(caption);
-
-
-  const figCaption = document.createElement('figcaption');
-  figCaption.innerText = `${image[i].description}`;
-  figure.appendChild(figCaption)
-};
