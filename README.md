@@ -1,23 +1,16 @@
 # cpnt262-a4
-## JSON Gallery Endpoints with Fetch 
+
+## JSON Gallery Endpoints with Fetch
+
 ### Eleanor Forte, 000841873
 
-Well, heres to better late than never eh?? Thanks for this. 
+Well, heres to better late than never eh?? Thanks for this.
 Just getting my directory set up and everything moved over from a3. (2:13pm)
 
- 
+Set up all my directories and trasnferred everything over. Kyle and Erica helped me with the fetch but I don't know if I even did the .env right or at all? Also couldn't figure out how to get the day js involved. But, a swing none the less.
+Thanks Tony.
 
-
-
-
-
-
-
-
-
-
-
- ## Attributions:
+## Attributions:
 
 - Photo by Filip Kominik (Doorways)
   https://unsplash.com/photos/IHtVbLRjTZU
